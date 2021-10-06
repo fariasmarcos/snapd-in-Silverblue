@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-SCRIPT_FOLDER=/opt/snapdSB/
+SCRIPT_FOLDER=/var/opt/snapdSB/
 bindnotok=0
 symlinknok=0
 
