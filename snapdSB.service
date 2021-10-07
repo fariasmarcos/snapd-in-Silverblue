@@ -5,8 +5,7 @@ Wants=remote-fs-pre.target
 
 [Service]
 Type=oneshot
-ExecStart=/var/opt/snapdSB/snapdSB.sh
-ExecStopPost=sudo chattr +i /
+ExecStart=/bin/bash /var/opt/snapdSB/snapdSB.sh
 
 [Install]
 WantedBy=remote-fs.target
