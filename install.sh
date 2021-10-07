@@ -9,11 +9,11 @@ SERVICE_FOLDER=/etc/systemd/system/
 SERVICE_NAME=snapdSB.service
 
 # choose if snap classic will be used
-read -n 1 -p "
-Will you use snap classic?
+read -p "
+Will you use snap classic? (y/N)
 This will replace the symlink /home with a bind mount
 Undo this it's not implemented.
-Only press y if you're really sure
+Only press y if you're really sure: 
 " classic
 
 case "$classic" in
